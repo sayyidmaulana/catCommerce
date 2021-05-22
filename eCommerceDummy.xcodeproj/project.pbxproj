@@ -100,9 +100,9 @@
 		0B13C2802658F88A00DCB202 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0B505AE62659C4F400712407 /* Main */,
 				0B505AE12659741700712407 /* Detail */,
 				0B13C2842659026300DCB202 /* Item */,
-				0B13C2812658FA5900DCB202 /* TabbarController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -156,6 +156,14 @@
 			children = (
 			);
 			path = MainSource;
+			sourceTree = "<group>";
+		};
+		0B505AE62659C4F400712407 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0B13C2812658FA5900DCB202 /* TabbarController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
