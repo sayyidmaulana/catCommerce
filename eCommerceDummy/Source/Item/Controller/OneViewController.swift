@@ -56,3 +56,15 @@ class OneViewController: UITableViewController {
 
 }
 
+#if DEBUG
+import SwiftUI
+
+@available(iOS 13, *)
+struct HomeVCPreview: PreviewProvider {
+    
+    static var previews: some View {
+        // view controller using programmatic UI
+        OneViewController().toPreview()
+    }
+}
+#endif
