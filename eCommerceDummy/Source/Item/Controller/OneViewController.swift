@@ -47,6 +47,12 @@ class OneViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 180
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let nav = DetailViewController()
+        nav.data = dataObject[indexPath.row]
+        navigationController?.pushViewController(nav, animated: true)
+    }
 
 }
 

@@ -21,6 +21,7 @@
 		0B13C28F265938DF00DCB202 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13C28E265938DF00DCB202 /* Constraints.swift */; };
 		0B13C29526593A2100DCB202 /* OneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13C29426593A2100DCB202 /* OneViewCell.swift */; };
 		0B505ADF26595E3C00712407 /* OneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505ADE26595E3C00712407 /* OneModel.swift */; };
+		0B505AE42659B90300712407 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505AE32659B90300712407 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0B13C28E265938DF00DCB202 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		0B13C29426593A2100DCB202 /* OneViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewCell.swift; sourceTree = "<group>"; };
 		0B505ADE26595E3C00712407 /* OneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneModel.swift; sourceTree = "<group>"; };
+		0B505AE32659B90300712407 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		0B13C2652655FDCA00DCB202 /* eCommerceDummy */ = {
 			isa = PBXGroup;
 			children = (
+				0B505AE2265989EE00712407 /* MainSource */,
 				0B13C2802658F88A00DCB202 /* Source */,
 				0B13C27F2658E91B00DCB202 /* Helper */,
 				0B13C2662655FDCA00DCB202 /* AppDelegate.swift */,
@@ -143,8 +146,16 @@
 		0B505AE12659741700712407 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				0B505AE32659B90300712407 /* DetailViewController.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		0B505AE2265989EE00712407 /* MainSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 				0B13C27D2656076200DCB202 /* MainController.swift in Sources */,
 				0B13C26B2655FDCA00DCB202 /* ViewController.swift in Sources */,
 				0B13C2672655FDCA00DCB202 /* AppDelegate.swift in Sources */,
+				0B505AE42659B90300712407 /* DetailViewController.swift in Sources */,
 				0B505ADF26595E3C00712407 /* OneModel.swift in Sources */,
 				0B13C28C265902A700DCB202 /* ThreeViewController.swift in Sources */,
 				0B13C28F265938DF00DCB202 /* Constraints.swift in Sources */,
