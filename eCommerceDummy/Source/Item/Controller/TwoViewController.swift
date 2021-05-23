@@ -25,6 +25,7 @@ class TwoViewController: UICollectionViewController, UICollectionViewDelegateFlo
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        navigationItem.title = "Cat Catalouge"
         setupView()
     }
     
@@ -57,3 +58,17 @@ class TwoViewController: UICollectionViewController, UICollectionViewDelegateFlo
     }
 
 }
+
+#if DEBUG
+import SwiftUI
+
+@available(iOS 13, *)
+struct HomePreview: PreviewProvider {
+
+    static var previews: some View {
+        // view controller using programmatic UI
+        TwoViewController().toPreview()
+    }
+}
+#endif
+
