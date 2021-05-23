@@ -23,6 +23,8 @@
 		0B505ADF26595E3C00712407 /* OneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505ADE26595E3C00712407 /* OneModel.swift */; };
 		0B505AE42659B90300712407 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505AE32659B90300712407 /* DetailViewController.swift */; };
 		0B505AEA2659C74900712407 /* LivePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505AE92659C74900712407 /* LivePreview.swift */; };
+		0B505AED265A0D2500712407 /* TwoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505AEC265A0D2500712407 /* TwoViewCell.swift */; };
+		0B505AF0265A0F4D00712407 /* TwoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B505AEF265A0F4D00712407 /* TwoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		0B505ADE26595E3C00712407 /* OneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneModel.swift; sourceTree = "<group>"; };
 		0B505AE32659B90300712407 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0B505AE92659C74900712407 /* LivePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePreview.swift; sourceTree = "<group>"; };
+		0B505AEC265A0D2500712407 /* TwoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewCell.swift; sourceTree = "<group>"; };
+		0B505AEF265A0F4D00712407 /* TwoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				0B505ADE26595E3C00712407 /* OneModel.swift */,
+				0B505AEF265A0F4D00712407 /* TwoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				0B13C29426593A2100DCB202 /* OneViewCell.swift */,
+				0B505AEC265A0D2500712407 /* TwoViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,8 +256,10 @@
 				0B13C29526593A2100DCB202 /* OneViewCell.swift in Sources */,
 				0B13C2862659028D00DCB202 /* OneViewController.swift in Sources */,
 				0B13C2892659029A00DCB202 /* TwoViewController.swift in Sources */,
+				0B505AF0265A0F4D00712407 /* TwoModel.swift in Sources */,
 				0B13C2822658FA5900DCB202 /* TabbarController.swift in Sources */,
 				0B13C2692655FDCA00DCB202 /* SceneDelegate.swift in Sources */,
+				0B505AED265A0D2500712407 /* TwoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabbarController: UITabBarController {
+class TabbarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class TabbarController: UITabBarController {
         var countViewController = [firstBar]
         
         for item in bottomBar {
-            let others = UINavigationController(rootViewController: TwoViewController())
+            let others = UINavigationController(rootViewController: TwoViewController(collectionViewLayout: UICollectionViewFlowLayout()))
             others.tabBarItem.title = item["title"]
             others.tabBarItem.image = UIImage(named: item["icon"]!)
             
