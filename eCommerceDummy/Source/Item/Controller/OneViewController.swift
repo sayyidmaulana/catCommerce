@@ -32,6 +32,8 @@ class OneViewController: UITableViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(OneViewCell.self, forCellReuseIdentifier: reuseIdentifier)
+        
+        self.tableView.sectionHeaderHeight = 100
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,6 +54,25 @@ class OneViewController: UITableViewController {
         let nav = DetailViewController()
         nav.data = dataObject[indexPath.row]
         navigationController?.pushViewController(nav, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        let view = UIView(frame: CGRect.zero)
+        let label = UILabel(frame: CGRect(x: 20, y: 20, width: 150, height: 50))
+        label.text = "Your Favorite Cat"
+        label.textColor = .gray
+        
+        let frame = CGRect(x: 300, y: 15, width: 60, height: 60)
+        let headerImageView = UIButton(frame: frame)
+        headerImageView.setImage(#imageLiteral(resourceName: "Persian"), for: .normal)
+        headerImageView.clipsToBounds = true
+        headerImageView.layer.cornerRadius = 30
+        
+        self.view.addSubview(headerImageView)
+        self.view.addSubview(label)
+
+        return view
     }
 
 }
