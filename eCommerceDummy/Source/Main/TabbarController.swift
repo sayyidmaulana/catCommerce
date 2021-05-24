@@ -40,3 +40,16 @@ class TabbarController: UITabBarController, UITabBarControllerDelegate {
     }
     
 }
+
+#if DEBUG
+import SwiftUI
+
+@available(iOS 13, *)
+struct HomeTCPreview: PreviewProvider {
+
+    static var previews: some View {
+        // view controller using programmatic UI
+        TabbarController().toPreview()
+    }
+}
+#endif
