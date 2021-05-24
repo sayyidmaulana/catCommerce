@@ -25,6 +25,7 @@ class OneViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
+        navigationItem.title = "Home"
         setupView()
     }
     
